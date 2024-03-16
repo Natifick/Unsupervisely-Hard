@@ -71,7 +71,7 @@ class MeanSquareDistancesStat:
     def push(self, batch):        
         idx, x_repr_cur = batch
 
-        if self.cur_epoch > 0:   
+        if self.cur_epoch > 0:
             x_repr_prev = self.buffer.last_epoch_repr[idx]
             self.msd_hist[self.cur_epoch, idx] = self.msd(x_repr_prev, x_repr_cur).cpu()
         
