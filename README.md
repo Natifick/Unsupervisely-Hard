@@ -1,6 +1,6 @@
 # 🥪 Unsupervised Hard and Rare Samples Estimation by Neural Networks
 
-This project "Machine learning" course at Skoltech. The idea is to find hard and rare samples. Prior works try to differentiate such samples by using supervised models and metrics that rely on labels. Main interest of this work is to study if it's possible to do so without labels with unsupervised training. We propose to metrics - Mean Squared Distance (MSD) and Loss Gradient Norm (LGN), study their properties on CIFAR-10 dataset, compare with supervised metrics and provide additional experiments with dataset compression and noisy images detection.
+This project was done as part of "Machine learning" course at Skoltech. The idea is to find hard and rare samples. Prior works try to differentiate such samples by using supervised models and metrics that rely on labels. Main interest of this work is to study if it's possible to do so without labels with unsupervised training. We propose to metrics - Mean Squared Distance (MSD) and Loss Gradient Norm (LGN), study their properties on CIFAR-10 dataset, compare with supervised metrics and provide additional experiments with dataset compression and noisy images detection.
 
 ## Structure
 
