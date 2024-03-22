@@ -1,4 +1,8 @@
-**/data
+data/*
+!data/*.csv
+!data/*.np
+!data/*npy
+!data/*.pt
 **/.vscode
 **/__pycache__
 **/*.ipynb_checkpoints
